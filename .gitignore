@@ -1,0 +1,17 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+
+# Salida de MkDocs
+site/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# IDEs y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

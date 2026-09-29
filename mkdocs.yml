@@ -1,0 +1,48 @@
+site_name: Proyecto Intermodular
+site_description: Documentación oficial del Proyecto Intermodular
+site_author: Equipo de Proyecto
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Inicio: index.md
+  - 1. Introducción: 01_introduccion.md
+  - 2. Marco Tecnológico: 02_marco_tecnologico.md
+  - 3. Desarrollo: 03_desarrollo.md
+  - 4. Resultados: 04_resultados.md
+  - 5. Conclusiones: 05_conclusiones.md
+  - 6. Bibliografía: 06_bibliografia.md
+  - 7. Anexos: 07_anexos.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
